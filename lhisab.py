@@ -11,4 +11,9 @@ def area_cercle():
  area2 = radius * radius * 3.14
  print "the area  is",area2 ;
 area_cercle()
-    
+def area_square():
+ side=input("plaes enter your side : ");
+ area3= side * side 
+ print "the area  is ",area3 ;
+area_square()   
+
