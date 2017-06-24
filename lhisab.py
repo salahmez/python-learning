@@ -12,8 +12,15 @@ def area_cercle():
  print "the area  is",area2 ;
 area_cercle()
 def area_square():
- side=input("plaes enter your side : ");
+ side=input("plaes enter your side :");
  area3= side * side 
  print "the area  is ",area3 ;
 area_square()   
-
+def area_triangle():
+ base=input("plaes enter your base :");
+ height=input("plaes enter your height :");
+ area4= base * height / 2
+ print "the area  is ",area4 ;
+area_triangle() 
+ 
+ 	
